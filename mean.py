@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 # Définir le chemin vers le fichier CSV et charger les données
 file_path = os.path.join("E-commerce Customer behavior.csv")
 data = pd.read_csv(file_path)
-print("Données importées avec succès!!!")
+print("Données importées avec succès!")
 
 # Afficher les premières lignes des données
 print(data.head())
